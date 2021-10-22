@@ -271,6 +271,36 @@ build CMakeFiles/app.dir/main.cpp.o: CXX_COMPILER__app_Debug /home/root_dima/mai
   OBJECT_DIR = CMakeFiles/app.dir
   OBJECT_FILE_DIR = CMakeFiles/app.dir
 
+build CMakeFiles/app.dir/del_ext.cpp.o: CXX_COMPILER__app_Debug /home/root_dima/main/programs/C++/project/clr_pass_manager/del_ext.cpp || cmake_object_order_depends_target_app
+  DEP_FILE = CMakeFiles/app.dir/del_ext.cpp.o.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/app.dir
+  OBJECT_FILE_DIR = CMakeFiles/app.dir
+
+build CMakeFiles/app.dir/add.cpp.o: CXX_COMPILER__app_Debug /home/root_dima/main/programs/C++/project/clr_pass_manager/add.cpp || cmake_object_order_depends_target_app
+  DEP_FILE = CMakeFiles/app.dir/add.cpp.o.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/app.dir
+  OBJECT_FILE_DIR = CMakeFiles/app.dir
+
+build CMakeFiles/app.dir/read.cpp.o: CXX_COMPILER__app_Debug /home/root_dima/main/programs/C++/project/clr_pass_manager/read.cpp || cmake_object_order_depends_target_app
+  DEP_FILE = CMakeFiles/app.dir/read.cpp.o.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/app.dir
+  OBJECT_FILE_DIR = CMakeFiles/app.dir
+
+build CMakeFiles/app.dir/str_del.cpp.o: CXX_COMPILER__app_Debug /home/root_dima/main/programs/C++/project/clr_pass_manager/str_del.cpp || cmake_object_order_depends_target_app
+  DEP_FILE = CMakeFiles/app.dir/str_del.cpp.o.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/app.dir
+  OBJECT_FILE_DIR = CMakeFiles/app.dir
+
+build CMakeFiles/app.dir/cbash.cpp.o: CXX_COMPILER__app_Debug /home/root_dima/main/programs/C++/project/clr_pass_manager/cbash.cpp || cmake_object_order_depends_target_app
+  DEP_FILE = CMakeFiles/app.dir/cbash.cpp.o.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/app.dir
+  OBJECT_FILE_DIR = CMakeFiles/app.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target app
@@ -279,7 +309,7 @@ build CMakeFiles/app.dir/main.cpp.o: CXX_COMPILER__app_Debug /home/root_dima/mai
 #############################################
 # Link the executable app
 
-build app: CXX_EXECUTABLE_LINKER__app_Debug CMakeFiles/app.dir/main.cpp.o
+build app: CXX_EXECUTABLE_LINKER__app_Debug CMakeFiles/app.dir/main.cpp.o CMakeFiles/app.dir/del_ext.cpp.o CMakeFiles/app.dir/add.cpp.o CMakeFiles/app.dir/read.cpp.o CMakeFiles/app.dir/str_del.cpp.o CMakeFiles/app.dir/cbash.cpp.o
   FLAGS = -g
   LINK_FLAGS = -rdynamic
   OBJECT_DIR = CMakeFiles/app.dir
